@@ -1,0 +1,74 @@
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(90deg, #1e2a47, #182c42); /* Cool dark gradient */
+    padding: 15px 20px;
+}
+
+/* Navbar brand (site name) */
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #f0f0f0;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color:  #0044ff; /* Bright hover effect */
+    transform: translateY(-3px);
+}
+
+/* Dropdown menu */
+.nav-item.dropdown .nav-link {
+    color: #f0f0f0;
+    font-weight: 600;
+}
+
+.nav-item.dropdown .dropdown-menu {
+    background-color: #282c34;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.nav-item.dropdown .dropdown-item {
+    color: #d0d0d0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-item.dropdown .dropdown-item:hover {
+    background-color: #0044ff;
+    color: white;
+}
+
+/* Logout button */
+.navbar-nav .btn-danger {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .btn-danger:hover {
+    background-color: #cc3d44;
+    transform: scale(1.05);
+}
+
+/* Toggler button (for mobile view) */
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Add a subtle shadow to the navbar */
+.navbar.shadow-lg {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

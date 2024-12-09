@@ -1,0 +1,223 @@
+.bg-blue {
+    background-color: #007bff !important;
+}
+.navbar-nav .nav-link:hover {
+    color: #f0f0f0 !important;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+.navbar-brand:hover {
+    color: #f0f0f0 !important;
+    transition: all 0.3s ease-in-out;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+}
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.card {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border: 1px solid #ddd;
+margin-bottom: 20px; /* Margin to add space between cards */
+margin-top: 20px; /* Margin at the top */
+margin-left: 15px; /* Margin on the left */
+margin-right: 15px; /* Margin on the right */
+}
+
+.card-header {
+font-weight: bold;
+}
+
+.card-body {
+padding: 20px;
+}
+
+.table {
+margin-bottom: 0; /* Remove bottom margin from the table */
+}
+
+.card-body table td,
+.card-body table th {
+padding: 10px;
+}
+
+.card-body table tr td,
+.card-body table tr th {
+vertical-align: middle;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th, table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+table th {
+    background-color: #f8f9fa;
+}
+table tr:hover {
+    background-color: #f1f1f1;
+}
+    /* Solid blue navbar */
+    .bg-blue {
+        background-color: #007bff !important;
+    }
+
+    /* Hover effect for navbar items */
+    .navbar-nav .nav-link:hover {
+        color: #f0f0f0 !important;
+        background-color: rgba(255, 255, 255, 0.2);
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* Navbar brand hover effect */
+    .navbar-brand:hover {
+        color: #f0f0f0 !important;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* Footer style */
+    footer {
+        background-color: #343a40;
+        color: white;
+    }
+
+    /* Dashboard grid styling */
+    .dashboard-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    /* Card style */
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-header {
+        font-weight: bold;
+    }
+
+    /* Table styling */
+    .table {
+        width: 100%;
+        table-layout: fixed;
+        word-wrap: break-word;
+        overflow-x: auto; /* Adds horizontal scroll if needed */
+    }
+
+    .table th,
+    .table td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+
+    .table th {
+        background-color: #f8f9fa;
+    }
+
+    .table tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Make the table scrollable if too wide */
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Ensure the user info container doesn't adjust size */
+    .user-info-container {
+        width: fit-content;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+    <style>
+        /* Solid blue navbar */
+        .bg-blue {
+            background-color: #007bff !important;
+        }
+
+        /* Hover effect for navbar items */
+        .navbar-nav .nav-link:hover {
+            color: #f0f0f0 !important;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Navbar brand hover effect */
+        .navbar-brand:hover {
+            color: #f0f0f0 !important;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Footer style */
+        footer {
+            background-color: #343a40;
+            color: white;
+        }
+
+        /* Dashboard grid styling */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        /* Card style */
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            font-weight: bold;
+        }
+
+        /* Table styling */
+        .table {
+            width: 100%;
+            table-layout: fixed;
+            word-wrap: break-word;
+            overflow-x: auto; /* Adds horizontal scroll if needed */
+        }
+
+        .table th,
+        .table td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .table th {
+            background-color: #f8f9fa;
+        }
+
+        .table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Make the table scrollable if too wide */
+        .table-responsive {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* Ensure the user info container doesn't adjust size */
+        .user-info-container {
+            width: fit-content;
+            margin-bottom: 20px;
+        }
+    </style>
